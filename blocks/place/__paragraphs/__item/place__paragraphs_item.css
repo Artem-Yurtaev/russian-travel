@@ -1,0 +1,34 @@
+.place__paragraphs_item {
+  margin: 0;
+  max-width: 484px;
+  margin-bottom: 26px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.place__paragraphs_item:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 1140px) {
+  .place__paragraphs_item {
+    max-width: 456px;
+    margin-bottom: 27px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .place__paragraphs_item {
+    max-width: 352px;
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place__paragraphs_item {
+    max-width: 288px;
+    font-size: 16px;
+  }
+}
