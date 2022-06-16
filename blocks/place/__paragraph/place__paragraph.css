@@ -1,4 +1,4 @@
-.place__paragraphs_item {
+.place__paragraph {
   max-width: 484px;
   margin: 0 0 26px;
   font-weight: 400;
@@ -6,19 +6,19 @@
   line-height: 1.63;
 }
 
-.place__paragraphs_item:last-of-type {
+.place__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 1140px) {
-  .place__paragraphs_item {
+  .place__paragraph {
     max-width: 456px;
     margin-bottom: 27px;
   }
 }
 
 @media screen and (max-width: 984px) {
-  .place__paragraphs_item {
+  .place__paragraph {
     max-width: 352px;
     margin-bottom: 25px;
     font-size: 16px;
@@ -26,9 +26,8 @@
 }
 
 @media screen and (max-width: 568px) {
-  .place__paragraphs_item {
+  .place__paragraph {
     max-width: 288px;
-    font-size: 16px;
     margin: 0 16px 26px;
   }
 }

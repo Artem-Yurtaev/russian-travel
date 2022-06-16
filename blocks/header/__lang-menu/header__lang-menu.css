@@ -5,3 +5,10 @@
   margin: 0;
   align-items: flex-end;
 }
+
+@media screen and (max-width: 568px) {
+  .header__lang-menu {
+    align-items: flex-start;
+    margin-top: 14px;
+  }
+}
