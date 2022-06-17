@@ -1,7 +1,8 @@
 .lead__image {
+  display: block;
   width: 100%;
   margin: 64px 0 0;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center center;
 }
 
